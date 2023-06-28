@@ -63,12 +63,12 @@ def prepare_branchdf(branch_df):
 
     # update columns type according to requirements 
     updated_branch_df = df2.withColumn("BRANCH_CODE",df2["BRANCH_CODE"].cast(IntegerType()))\
-        .withColumn("BRANCH_NAME",df2["BRANCH_NAME"].cast(VarcharType(40)))\
-        .withColumn("BRANCH_STREET",df2["BRANCH_STREET"].cast(VarcharType(40)))\
-        .withColumn("BRANCH_CITY",df2["BRANCH_CITY"].cast(VarcharType(40)))\
-        .withColumn("BRANCH_STATE",df2["BRANCH_STATE"].cast(VarcharType(40)))\
+        .withColumn("BRANCH_NAME",df2["BRANCH_NAME"].cast(StringType()))\
+        .withColumn("BRANCH_STREET",df2["BRANCH_STREET"].cast(StringType()))\
+        .withColumn("BRANCH_CITY",df2["BRANCH_CITY"].cast(StringType()))\
+        .withColumn("BRANCH_STATE",df2["BRANCH_STATE"].cast(StringType()))\
         .withColumn("BRANCH_ZIP",df2["BRANCH_ZIP"].cast(IntegerType()))\
-        .withColumn("BRANCH_PHONE",df2["BRANCH_PHONE"].cast(VarcharType(40)))\
+        .withColumn("BRANCH_PHONE",df2["BRANCH_PHONE"].cast(StringType()))\
         .withColumn("LAST_UPDATED",df2["LAST_UPDATED"].cast(TimestampType()))
     
     return updated_branch_df
