@@ -1,0 +1,70 @@
+2023-Jun-27-18:05:45,ETL Job Started
+2023-Jun-27-18:06:25,ETL Job Started
+2023-Jun-27-18:06:25,Extract Phase Started
+2023-Jun-27-19:13:44,ETL Job Started
+2023-Jun-27-19:13:44,Extract Phase Started
+2023-Jun-27-19:13:48,branch file extract: Successful
+2023-Jun-27-19:13:48,Customer file extract: Successful
+2023-Jun-27-19:13:48,Credit file extract: Successful
+2023-Jun-27-19:13:48,Transform Phase Started
+2023-Jun-27-19:13:49,branch df transform: Successful
+2023-Jun-27-19:23:30,ETL Job Started
+2023-Jun-27-19:23:30,Extract Phase Started
+2023-Jun-27-19:23:33,branch file extract: Successful
+2023-Jun-27-19:23:33,Customer file extract: Successful
+2023-Jun-27-19:23:34,Credit file extract: Successful
+2023-Jun-27-19:23:34,Transform Phase Started
+2023-Jun-27-19:23:35,branch df transform: Successful
+2023-Jun-27-19:23:37,customer df transform: Successful
+2023-Jun-27-19:23:38,credit df transform: Successful
+2023-Jun-27-19:23:38,Load Phase Started
+2023-Jun-27-19:23:38,branch df load: Successful
+2023-Jun-27-19:23:38,customer df load: Successful
+2023-Jun-27-19:23:38,credit df load: Successful
+2023-Jun-28-01:13:02,
+ETL Job Started
+2023-Jun-28-01:13:02,
+Extract Phase Started
+2023-Jun-28-01:13:05,branch file extract: Successful
+2023-Jun-28-01:13:06,Customer file extract: Successful
+2023-Jun-28-01:13:06,Credit file extract: Successful
+2023-Jun-28-01:13:06,
+Transform Phase Started
+2023-Jun-28-01:13:07,branch df transform: Successful
+2023-Jun-28-01:13:09,customer df transform: Successful
+2023-Jun-28-01:13:09,credit df transform: Successful
+2023-Jun-28-01:13:09,
+Load Phase Started
+2023-Jun-28-01:16:53,
+ETL Job Started
+2023-Jun-28-01:16:53,
+Extract Phase Started
+2023-Jun-28-01:16:56,branch file extract: Successful
+2023-Jun-28-01:16:56,Customer file extract: Successful
+2023-Jun-28-01:16:56,Credit file extract: Successful
+2023-Jun-28-01:16:56,
+Transform Phase Started
+2023-Jun-28-01:16:57,branch df transform: Successful
+2023-Jun-28-01:16:59,customer df transform: Successful
+2023-Jun-28-01:17:00,credit df transform: Successful
+2023-Jun-28-01:17:00,
+Load Phase Started
+2023-Jun-28-01:17:00,branch df load: Successful
+2023-Jun-28-01:17:00,customer df load: Successful
+2023-Jun-28-01:17:01,credit df load: Successful
+2023-Jun-28-01:17:01,
+ETL job completed successfully
+2023-Jun-28-01:21:32,==========ETL Job Started==========
+2023-Jun-28-01:21:32,Extract Phase Started
+2023-Jun-28-01:21:35,branch file extract: Successful
+2023-Jun-28-01:21:36,Customer file extract: Successful
+2023-Jun-28-01:21:36,Credit file extract: Successful
+2023-Jun-28-01:21:36,Transform Phase Started
+2023-Jun-28-01:21:37,branch df transform: Successful
+2023-Jun-28-01:21:38,customer df transform: Successful
+2023-Jun-28-01:21:39,credit df transform: Successful
+2023-Jun-28-01:21:39,Load Phase Started
+2023-Jun-28-01:21:39,branch df load: Successful
+2023-Jun-28-01:21:40,customer df load: Successful
+2023-Jun-28-01:21:40,credit df load: Successful
+2023-Jun-28-01:21:40,=====ETL job completed successfully=====
