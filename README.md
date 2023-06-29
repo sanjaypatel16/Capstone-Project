@@ -17,7 +17,7 @@ Capstone Project requiresto work with the following technologies to manage an ET
 - <img src="1 UoBrVq6F9KmAnnyTHrlCXA.png" alt="drawing" width="100"/> Matplotlib
 - <img src="image-1.png" alt="drawing" width="100"/> SQL / MySQL
 - <img src="image-2.png" alt="drawing" width="100"/> Tableu
-- v<img src="1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg" alt="drawing" width="100"/>
+- <img src="1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg" alt="drawing" width="100"/> REST API
 
 
 ## Workflow Diagram of the Requirements:
@@ -34,7 +34,21 @@ A credit card is issued to users to enact the payment system. It allows the card
 
 ## Transformed Data Model:
 
-<img src="image-3.png" alt="drawing" width="400"/>
+<img src="image-3.png" alt="drawing" width="500"/>
+
+## Business Requirements:
+
+1. Data Extraction and Transformation with Python and PySpark
+2. Data loading into Database using RDBMS connection from PySPark to MySQL.
+3. Functional Requirements to display Transaction Details Module on console-based Python program.
+4. Functional Requirements to display Customer Details on console-based Python program.
+5. Data Analysis and Visualization on transformed datasets using MatPlotLib, Seaborne or Tableau.
+6. Access to Loan API Endpoint using requests module.
+7. Data Analysis and Visualization on aquired data. 
+
+## Mapping Requirements:
+
+![Alt text](image-4.png)
 
 ## Installation and Execution:
 
