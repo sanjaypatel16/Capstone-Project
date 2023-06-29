@@ -8,8 +8,15 @@ Capstone Project requiresto work with the following technologies to manage an ET
 
 ## Dependencies:
 
-- ![Alt text](<0 SGbxc-dbU0gyaVWm.jpg>)
+- <img src="0 SGbxc-dbU0gyaVWm.jpg" alt="drawing" width="100"/> VS Code
+- <img src="images.png" alt="drawing" width="100"/> Windows 11
+- <img src="python-programming-language.png" alt="drawing" width="100"/> Python
+- <img src="pandas-logo-300.png" alt="drawing" width="100"/> Pandas
+- <img src="twitter-image.jpg" alt="drawing" width="100"/> Numpy
+- <img src="Apache_Spark_logo.svg.png" alt="drawing" width="100"/> Apache Spark
+- <img src="1 UoBrVq6F9KmAnnyTHrlCXA.png" alt="drawing" width="100"/> Matplotlib
+- <img src="image-1.png" alt="drawing" width="100"/>
+- <img src="image-2.png" alt="drawing" width="100"/>
 
 ![Alt text](image.png)
 
-<img src="0 SGbxc-dbU0gyaVWm.jpg" alt="drawing" width="100"/>
