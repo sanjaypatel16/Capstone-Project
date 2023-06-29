@@ -7,6 +7,7 @@ import pyspark
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType,StructField,StringType,IntegerType,DoubleType,TimestampType,VarcharType
 from pyspark.sql.functions import *
+import time
 import requests
 
 
@@ -252,25 +253,38 @@ def req224():
     return result224_df
 
 
+# branch_df.write.mode('overwrite').option("header",True).csv("branchfile")
+
+def write_file(df):
+    '''takes DF and write the file as CSV'''
+    answer = input("Would you like to save the above output as a CSV file?(Y/N): ")
+    if answer.upper() == "Y":
+        timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+        df.write.mode("overwrite").option("header", True).csv(timestamp)
+        print(f"Your file has been saved in {timestamp} folder")
+    print("Returning to main menu........")
+    time.sleep(2.5)
+    print()
+    print()
+
+
 
 def print_menu():
     '''Print OPTIONS to the user'''
-    print("Please choose from one of the following options:")
+    print("====================Please choose from one of the following options:=============================================")
     print("1. TRANSACTION made by customers living in a given ZIP CODE for a given MONTH and YEAR")
     print("2. The number and total values of TRANSACTIONS for a given TYPE")
     print("3. Total number and total values of TRANSACTIONS for branches in a given STATE")
     print("4. Check the existing ACCOUNT DETAILS of a CUSTOMER")
     print("5. MODIFY the existing ACCOUNT DETAILS of a CUSTOMER")
-    print("6. Gnerate a MONTHLY BILL for a credit card number for a given MONTH and YEAR")
+    print("6. Generate a MONTHLY BILL for a credit card number for a given MONTH and YEAR")
     print("7. TRANSACTIONS made by a CUSTOMER between two DATES")
     print("8. EXIT")
 
 
 option = 0 
 
-while True:
-
-    print('''
+print('''
 
        /$$ /$$       /$$$$$$$$ /$$   /$$  /$$$$$$  /$$      /$$ /$$$$$$$  /$$       /$$$$$$$$       /$$$$$$$   /$$$$$$  /$$   /$$ /$$   /$$             /$$ /$$      
       /$$//$$/      | $$_____/| $$  / $$ /$$__  $$| $$$    /$$$| $$__  $$| $$      | $$_____/      | $$__  $$ /$$__  $$| $$$ | $$| $$  /$$/            /$$//$$/      
@@ -282,6 +296,11 @@ while True:
 |__/|__/            |________/|__/  |__/|__/  |__/|__/     |__/|__/      |________/|________/      |_______/ |__/  |__/|__/  \__/|__/  \__/      |__/|__/            
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 ''')
+
+
+while True:
+
+    
     print_menu()
     print()
     try:
@@ -293,31 +312,38 @@ while True:
     if option == 1:
         df211 = req211()
         df211.show()
+        write_file(df211)
     
     elif option == 2:
         df212 = req212()
         df212.show()
+        write_file(df212)
 
     elif option == 3:
         df213 = req213()
         df213.show()
+        write_file(df213)
 
     elif option == 4:
         df221 = req221()
         df221.show()
+        write_file(df221)
 
     elif option == 5:
         df222 = req222()
         df222.show()
+        write_file(df222)
 
     elif option == 6:
         df2231, df2232 = req223()
         df2231.show()
         df2232.show()
+        write_file(df2231)
 
     elif option == 7:
         df224 = req224()
         df224.show()
+        write_file(df224)
     
     elif option == 8:
         print("\n EXIT OPTION SELECTED \n")
