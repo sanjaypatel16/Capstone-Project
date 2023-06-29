@@ -15,8 +15,40 @@ Capstone Project requiresto work with the following technologies to manage an ET
 - <img src="twitter-image.jpg" alt="drawing" width="100"/> Numpy
 - <img src="Apache_Spark_logo.svg.png" alt="drawing" width="100"/> Apache Spark
 - <img src="1 UoBrVq6F9KmAnnyTHrlCXA.png" alt="drawing" width="100"/> Matplotlib
-- <img src="image-1.png" alt="drawing" width="100"/>
-- <img src="image-2.png" alt="drawing" width="100"/>
+- <img src="image-1.png" alt="drawing" width="100"/> SQL / MySQL
+- <img src="image-2.png" alt="drawing" width="100"/> Tableu
+- v<img src="1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg" alt="drawing" width="100"/>
 
-![Alt text](image.png)
+
+## Workflow Diagram of the Requirements:
+
+<img src="image.png" alt="drawing" width="500"/>
+
+## Dataset Overview
+
+The Credit Card System database is an independent system developed for managing activities such as registering new customers and approving or canceling requests, etc., using the architecture.
+A credit card is issued to users to enact the payment system. It allows the cardholder to access financial services in exchange for the holder's promise to pay for them later. Below are three files that contain the customer’s transaction information and inventories in the credit card information.
+- 	CDW_SAPP_CUSTOMER.JSON: This file has the existing customer details.
+-	CDW_SAPP_CREDITCARD.JSON: This file contains all credit card transaction information.
+-	CDW_SAPP_BRANCH.JSON: Each branch’s information and details are recorded in this file. 
+
+## Transformed Data Model:
+
+<img src="image-3.png" alt="drawing" width="400"/>
+
+## Installation and Execution:
+
+- Initially requires to run ExtractTransformLoad.py to perform ETL process on input files. This will provide Transformed CSV files.
+- Transformed files were stored as JSON in this example to better performance during project presentation.
+- Input files can be changed to CSV files in branchfile, creditfile and customerfile folders with small changes in the code. 
+- Secondly, DataTranscation file is console base application for all the requirements provided in the project for Data Analysis. 
+- Data Visualization is jupyter notebook file for visualizing graphs according the requirements. 
+- LoanApplicationAPI is loan application data using rest API to fetch dataset and performing all Transformation and Visualization.
+
+
+
+## Author:
+
+- [Sanjay Patel](https://github.com/sanjaypatel16/)
+
 
