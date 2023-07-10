@@ -9,6 +9,7 @@ from pyspark.sql.types import StructType,StructField,StringType,IntegerType,Doub
 from pyspark.sql.functions import *
 import time
 import requests
+import credential
 
 
 #create spark session
@@ -64,32 +65,32 @@ credit_df = credit_df.select('CUST_CC_NO',
 # CDW_SAPP_CREDIT_CARD
 # CDW_SAPP_CUSTOMER 
 
-'''
-branch_df.write.format("jdbc") \
+
+'''branch_df.write.format("jdbc") \
   .mode("append") \
-  .option("url", "jdbc:mysql://localhost:3306/creditcard_capstone") \
+  .option("url", credential.jdbcapi) \
   .option("dbtable", "CDW_SAPP_BRANCH") \
-  .option("user", "root") \
-  .option("password", "Password") \
+  .option("user", credential.username) \
+  .option("password", credential.password) \
   .save()
 
 
 customer_df.write.format("jdbc") \
   .mode("append") \
-  .option("url", "jdbc:mysql://localhost:3306/creditcard_capstone") \
+  .option("url", credential.jdbcapi) \
   .option("dbtable", "CDW_SAPP_CUSTOMER") \
-  .option("user", "root") \
-  .option("password", "Password") \
+  .option("user", credential.username) \
+  .option("password", credential.password) \
   .save()
 
 credit_df.write.format("jdbc") \
   .mode("append") \
-  .option("url", "jdbc:mysql://localhost:3306/creditcard_capstone") \
+  .option("url", credential.jdbcapi) \
   .option("dbtable", "CDW_SAPP_CREDIT_CARD") \
-  .option("user", "root") \
-  .option("password", "Password") \
-  .save()
-'''
+  .option("user", credential.username) \
+  .option("password", credential.password) \
+  .save()'''
+
 
 # 211 Used to display the transactions made by customers living 
 # in a given zip code for a given month and year. Order by day in descending order.
