@@ -15,7 +15,7 @@ Capstone Project requiresto work with the following technologies to manage an ET
 - <img src="twitter-image.jpg" alt="drawing" width="100"/> Numpy
 - <img src="Apache_Spark_logo.svg.png" alt="drawing" width="100"/> Apache Spark
 - <img src="1 UoBrVq6F9KmAnnyTHrlCXA.png" alt="drawing" width="100"/> Matplotlib
-- <img src="image-1.png" alt="drawing" width="100"/> SQL / MySQL
+- <img src="/images/image-1.png" alt="drawing" width="100"/> SQL / MySQL
 - <img src="image-2.png" alt="drawing" width="100"/> Tableu
 - <img src="1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg" alt="drawing" width="100"/> REST API
 
