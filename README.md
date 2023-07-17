@@ -8,21 +8,21 @@ Capstone Project requiresto work with the following technologies to manage an ET
 
 ## Buit With:
 
-- <img src="0 SGbxc-dbU0gyaVWm.jpg" alt="drawing" width="100"/> VS Code
-- <img src="images.png" alt="drawing" width="100"/> Windows 11
-- <img src="python-programming-language.png" alt="drawing" width="100"/> Python
-- <img src="pandas-logo-300.png" alt="drawing" width="100"/> Pandas
-- <img src="twitter-image.jpg" alt="drawing" width="100"/> Numpy
-- <img src="Apache_Spark_logo.svg.png" alt="drawing" width="100"/> Apache Spark
-- <img src="1 UoBrVq6F9KmAnnyTHrlCXA.png" alt="drawing" width="100"/> Matplotlib
+- <img src="/images/0 SGbxc-dbU0gyaVWm.jpg" alt="drawing" width="100"/> VS Code
+- <img src="/images/images.png" alt="drawing" width="100"/> Windows 11
+- <img src="/images/python-programming-language.png" alt="drawing" width="100"/> Python
+- <img src="/images/pandas-logo-300.png" alt="drawing" width="100"/> Pandas
+- <img src="/images/twitter-image.jpg" alt="drawing" width="100"/> Numpy
+- <img src="/images/Apache_Spark_logo.svg.png" alt="drawing" width="100"/> Apache Spark
+- <img src="/images/1 UoBrVq6F9KmAnnyTHrlCXA.png" alt="drawing" width="100"/> Matplotlib
 - <img src="/images/image-1.png" alt="drawing" width="100"/> SQL / MySQL
-- <img src="image-2.png" alt="drawing" width="100"/> Tableu
-- <img src="1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg" alt="drawing" width="100"/> REST API
+- <img src="/images/image-2.png" alt="drawing" width="100"/> Tableu
+- <img src="/images/1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg" alt="drawing" width="100"/> REST API
 
 
 ## Workflow Diagram of the Requirements:
 
-<img src="image.png" alt="drawing" width="500"/>
+<img src="/images/image.png" alt="drawing" width="500"/>
 
 ## Dataset Overview
 
@@ -34,7 +34,7 @@ A credit card is issued to users to enact the payment system. It allows the card
 
 ## Transformed Data Model:
 
-<img src="image-3.png" alt="drawing" width="500"/>
+<img src="/images/image-3.png" alt="drawing" width="500"/>
 
 ## Business Requirements:
 
@@ -48,7 +48,7 @@ A credit card is issued to users to enact the payment system. It allows the card
 
 ## Mapping Requirements:
 
-![Alt text](image-4.png)
+![Alt text](/images/image-4.png)
 
 ## Installation and Execution:
 
